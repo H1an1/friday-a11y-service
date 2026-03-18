@@ -1,3 +1,0 @@
-int string a11y_description 0x7f010000
-int string app_name 0x7f010001
-int xml accessibility_config 0x7f020000

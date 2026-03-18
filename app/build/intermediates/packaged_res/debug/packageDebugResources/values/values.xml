@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="a11y_description">Friday accessibility service for screen reading and UI automation</string>
-    <string name="app_name">Friday A11y</string>
-</resources>
