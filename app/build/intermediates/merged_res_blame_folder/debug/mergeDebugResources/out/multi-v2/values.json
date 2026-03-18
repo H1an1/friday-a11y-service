@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "ai.friday.a11y.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/han1/Projects/friday-a11y-service/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "104,55",
+                        "endColumns": "110,48",
+                        "endOffsets": "210,99"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,166",
+                        "endColumns": "110,48",
+                        "endOffsets": "161,210"
+                    }
+                }
+            ]
+        }
+    ]
+}

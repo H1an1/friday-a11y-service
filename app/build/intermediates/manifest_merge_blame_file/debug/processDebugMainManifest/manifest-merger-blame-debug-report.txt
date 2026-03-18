@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ai.friday.a11y"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:6:5-78
+12-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:6:22-75
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:7:5-77
+13-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:7:22-74
+14
+15    <application
+15-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:9:5-44:19
+16        android:allowBackup="false"
+16-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:10:9-36
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:label="Friday A11y"
+19-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:11:9-36
+20        android:theme="@android:style/Theme.Material.Light" >
+20-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:12:9-60
+21        <activity
+21-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:14:9-21:20
+22            android:name="ai.friday.a11y.MainActivity"
+22-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:15:13-41
+23            android:exported="true" >
+23-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:16:13-36
+24            <intent-filter>
+24-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:17:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:18:17-69
+25-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:18:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:19:17-77
+27-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <service
+31-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:23:9-33:19
+32            android:name="ai.friday.a11y.FridayAccessibilityService"
+32-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:24:13-55
+33            android:exported="false"
+33-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:25:13-37
+34            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+34-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:26:13-79
+35            <intent-filter>
+35-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:27:13-29:29
+36                <action android:name="android.accessibilityservice.AccessibilityService" />
+36-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:28:17-92
+36-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:28:25-89
+37            </intent-filter>
+38
+39            <meta-data
+39-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:30:13-32:64
+40                android:name="android.accessibilityservice"
+40-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:31:17-60
+41                android:resource="@xml/accessibility_config" />
+41-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:32:17-61
+42        </service>
+43        <service
+43-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:35:9-42:19
+44            android:name="ai.friday.a11y.FridayNotificationListener"
+44-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:36:13-55
+45            android:exported="false"
+45-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:37:13-37
+46            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+46-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:38:13-87
+47            <intent-filter>
+47-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:39:13-41:29
+48                <action android:name="android.service.notification.NotificationListenerService" />
+48-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:40:17-99
+48-->/Users/han1/Projects/friday-a11y-service/app/src/main/AndroidManifest.xml:40:25-96
+49            </intent-filter>
+50        </service>
+51    </application>
+52
+53</manifest>

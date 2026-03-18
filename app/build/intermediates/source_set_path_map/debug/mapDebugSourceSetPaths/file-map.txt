@@ -1,0 +1,7 @@
+ai.friday.a11y.app-pngs-0 /Users/han1/Projects/friday-a11y-service/app/build/generated/res/pngs/debug
+ai.friday.a11y.app-resValues-1 /Users/han1/Projects/friday-a11y-service/app/build/generated/res/resValues/debug
+ai.friday.a11y.app-packageDebugResources-2 /Users/han1/Projects/friday-a11y-service/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+ai.friday.a11y.app-packageDebugResources-3 /Users/han1/Projects/friday-a11y-service/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+ai.friday.a11y.app-debug-4 /Users/han1/Projects/friday-a11y-service/app/build/intermediates/merged_res/debug/mergeDebugResources
+ai.friday.a11y.app-debug-5 /Users/han1/Projects/friday-a11y-service/app/src/debug/res
+ai.friday.a11y.app-main-6 /Users/han1/Projects/friday-a11y-service/app/src/main/res
