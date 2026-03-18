@@ -28,7 +28,7 @@ class MainActivity : Activity() {
         })
 
         val urlInput = EditText(this).apply {
-            hint = "https://gw.han1.fyi"
+            hint = "https://your-gateway.example.com"
             setText(prefs.getString("gateway_url", ""))
             setSingleLine(true)
         }
